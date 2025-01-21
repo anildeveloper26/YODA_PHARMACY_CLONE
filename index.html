@@ -810,73 +810,143 @@
       </section>
       <!-- Deals of the day section -->
       <section class="ml-3 flex flex-col gap-8">
-        <h1 class="text-slate-800">Deals of the Day</h1>
-        <h1 class="text-slate-800">Our Bestsellers</h1>
+        <h1 class="text-slate-800 md:text-lg md:text-black md:mt-10">
+          Deals of the Day
+        </h1>
+        <h1 class="text-slate-800 md:text-lg md:text-black md:mt-18">
+          Our Bestsellers
+        </h1>
       </section>
       <!-- Why choose us CARD -->
-      <section class="mt-8">
-        <h1 class="text-slate-800 mb-5">Why choose us?</h1>
-
+      <section class="hidden md:block mt-8 md:mt-10">
+        <h1 class="text-slate-800 mb-5 md:text-lg md:text-black">
+          Why choose us?
+        </h1>
         <div
-          class="bg-cyan flex flex-col items-center rounded-xl md:flex-row xl:ml-5 xl:mr-40"
+          class="bg-custom-radial from-gray-900 rounded-xl p-9 md:flex md:justify-around why_choose_us"
         >
+          <span class="hidden md:block why_choose_us_top_styling"></span>
+          <!-- Item 1 -->
           <div
-            class="flex mt-8 mb-8 ml-8 gap-5 xs:border-b-zinc-300 border-b mr-8 pb-5 md:border-r-zinc-300 md:border-r-2 md:border-b-cyan"
+            class="flex items-center gap-5 mb-8 md:mb-0 md:border-r md:pr-8 md:border-white"
           >
-            <div>
+            <div class="p-4 rounded-full flex items-center justify-center">
               <img
-                class="md:pt-6"
-                height="100"
-                width="100"
                 src="./assets/WHY CHOOSE US/icon_1.svg"
-                alt=""
+                alt="Items Sold Icon"
+                class="w-16 h-16 md:h-24 md:w-24"
               />
             </div>
-            <div class="mt-7">
-              <h1 class="text-xl font-bold text-white">9,500+</h1>
-              <p class="text-white text-xsm xl:text-base xl:max-w-40">
-                Uinique items sold last 3 months
+            <div>
+              <h1 class="text-white text-2xl font-bold">9,500+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
+                Unique items sold last 3 months
               </p>
             </div>
           </div>
+          <!-- Item 2 -->
           <div
-            class="flex gap-5 ml-8 mr-8 border-b border-b-zinc-50 pb-5 md:flex md:border-b-cyan md:border-r-zinc-300 md:border-r-2"
+            class="flex items-center gap-5 mb-8 md:mb-0 md:border-r md:pr-8 md:border-white"
           >
-            <div>
+            <div class="p-4 rounded-full flex items-center justify-center">
               <img
-                class="md:pt-7"
-                height="100"
-                width="100"
                 src="./assets/WHY CHOOSE US/icon_2.svg"
-                alt=""
+                alt="Pin Codes Icon"
+                class="w-16 h-16 md:h-24 md:w-24"
               />
             </div>
-            <div class="mt-7">
-              <h1 class="text-white text-xl font-bold">200+</h1>
-              <p class="text-white text-xsm xl:text-base xl:max-w-40">
+            <div>
+              <h1 class="text-white text-2xl font-bold">200+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
                 Pin codes serviced last 3 months
               </p>
             </div>
           </div>
-          <div class="flex mb-8 mt-8 gap-5 ml-8">
-            <div>
+          <!-- Item 3 -->
+          <div class="flex items-center gap-5">
+            <div class="p-4 rounded-full flex items-center justify-center">
               <img
-                class=""
-                height="100"
-                width="100"
                 src="./assets/WHY CHOOSE US/icon_3.svg"
-                alt=""
+                alt="Orders Icon"
+                class="w-16 h-16 md:h-24 md:w-24"
               />
             </div>
             <div>
-              <h1 class="text-white text-xl font-bold">10,000+</h1>
-              <p class="text-white text-xsm xl:text-base xl:max-w-40">
-                Orders on yoda pharmacy till date
+              <h1 class="text-white text-2xl font-bold">10,000+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
+                Orders on Yoda Pharmacy to date
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- MEDIUM SCREEN WHY CHOOSE US CARD -->
+
+      <section class=" md:hidden mt-8 md:mt-10">
+        <h1 class="text-slate-800 mb-5 md:text-xl md:text-black">
+          Why choose us?
+        </h1>
+        <div
+          class="bg-custom-radial from-gray-900 rounded-xl p-9 md:flex md:justify-around why_choose_us"
+        >
+          <span class="hidden md:block why_choose_us_top_styling"></span>
+          <!-- Item 1 -->
+          <div
+            class="flex items-center gap-5 mb-8 pb-5 md:mb-0 border-b md:pr-8 border-white"
+          >
+            <div class="p-4 rounded-full flex items-center justify-center">
+              <img
+                src="./assets/WHY CHOOSE US/icon_1.svg"
+                alt="Items Sold Icon"
+                class="w-22 h-22 md:h-24 md:w-24"
+              />
+            </div>
+            <div>
+              <h1 class="text-white text-2xl font-bold">9,500+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
+                Unique items sold last 3 months
+              </p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div
+            class="flex items-center gap-5 mb-8 pb-5 border-b md:pr-8 border-white"
+          >
+            <div class="p-4 rounded-full flex items-center justify-center">
+              <img
+                src="./assets/WHY CHOOSE US/icon_2.svg"
+                alt="Pin Codes Icon"
+                class="w-22 h-22 md:h-24 md:w-24"
+              />
+            </div>
+            <div>
+              <h1 class="text-white text-2xl font-bold">200+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
+                Pin codes serviced last 3 months
+              </p>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="flex items-center gap-5">
+            <div class="p-4  rounded-full flex items-center justify-center">
+              <img
+                src="./assets/WHY CHOOSE US/icon_3.svg"
+                alt="Orders Icon"
+                class="w-22 h-22 md:h-24 md:w-24"
+              />
+            </div>
+            <div>
+              <h1 class="text-white text-2xl font-bold">10,000+</h1>
+              <p class="text-sm xl:text-base text-white md:max-w-40">
+                Orders on Yoda Pharmacy to date
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <!-- Final paragraph section -->
       <section class="mt-4 font-normal xl:mt-8">
         <h1

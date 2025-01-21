@@ -1,21 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .search_shadow {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .sidebar {
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
-  }
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
 
-  .sidebar.open {
-    transform: translateX(0);
-  }
+.sidebar.open {
+  transform: translateX(0);
+}
+
 * {
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.why_choose_us_top_styling {
+  background: hsla(0, 0%, 100%, .1);
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 105px;
+  left: -160px;
+}
+.why_choose_us{
+  z-index: -10;
+  position: relative;
+}
+.why_choose_us:after {
+  content: "";
+  background: url(/assets/logo-shape.png);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  opacity: .2;
+  
 }
 

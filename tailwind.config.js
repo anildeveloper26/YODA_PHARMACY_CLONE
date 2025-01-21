@@ -17,7 +17,10 @@ tailwind.config = {
       },
       height:{
         'c-19':'70px'
-      }
+      },
+      backgroundImage: {
+        'custom-radial': 'radial-gradient(83.48% 2611.75% at 79.77% 50%, #55aacb 0%, #00435d 100%)',
+      },
     }
   }
 }
